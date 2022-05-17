@@ -6,9 +6,9 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-    //Scanner scanner = new Scanner(System.in);
-    //System.out.println("Write the name of cocktail: ");
-    String cocktailName = "vodka";//scanner.nextLine();
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("Write the name of cocktail: ");
+    String cocktailName = //scanner.nextLine();
     StringBuilder json = new StringBuilder();
         try {
             getCocktail(cocktailName, json);
